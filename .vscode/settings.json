@@ -1,0 +1,14 @@
+{
+    "dotnet-test-explorer.testProjectPath": "**/*Tests.csproj",
+    "dotnet-test-explorer.showCodeLens": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "extensions.recommendations": [
+        "ms-dotnettools.csharp",
+        "formulahendry.dotnet-test-explorer"
+    ]
+}
