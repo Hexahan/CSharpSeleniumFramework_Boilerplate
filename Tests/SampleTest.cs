@@ -2,16 +2,21 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using CSharpSeleniumFramework.Pages;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace CSharpSeleniumFramework.Tests
 {
     public class SampleTest
     {
-        IWebDriver driver;
+        private IWebDriver driver;
 
         [SetUp]
         public void Setup()
         {
+            // Download the correct ChromeDriver automatically
+            new DriverManager().SetUpDriver(new ChromeConfig());
+
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
         }

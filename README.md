@@ -15,10 +15,10 @@ Includes GitHub Actions CI and Docker support.
 - Docker support for isolated test execution
 
 ---
-
+## wr
 ## Prerequisites
 - **VS Code**
-- **.NET 6 SDK or later**
+- **.NET 9 SDK or later**
 - **Google Chrome**
 
 ---
