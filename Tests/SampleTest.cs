@@ -19,9 +19,9 @@ namespace CSharpSeleniumFramework.Tests
         [Test, Category("UI")]
         public void VerifyHomePageTitle()
         {
-            driver.Navigate().GoToUrl("https://example.com");
+            driver.Navigate().GoToUrl("https://www.google.com");
             HomePage homePage = new HomePage(driver);
-            Assert.IsTrue(homePage.GetTitle().Contains("Example"));
+            Assert.IsTrue(homePage.GetTitle().Contains("Google"));
         }
 
         [TearDown]
