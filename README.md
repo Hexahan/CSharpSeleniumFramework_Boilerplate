@@ -1,8 +1,8 @@
 # C# Selenium Automation Framework
 
 ## Overview
-This is a boilerplate project for building Selenium-based UI automation tests using **C#**, **NUnit**, and **VS Code**.  
-Includes GitHub Actions CI and Docker support.
+This is an evolving boilerplate personal project for building Selenium-based UI automation tests using **C#**, **NUnit**, and **VS Code**.  
+Includes GitHub Actions CI and Docker support. 
 
 ---
 
